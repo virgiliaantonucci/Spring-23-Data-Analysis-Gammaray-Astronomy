@@ -1,0 +1,1100 @@
+2022-12-22T04:18:37: ********************************************************************************
+2022-12-22T04:18:37: *                                   csobsdef                                   *
+2022-12-22T04:18:37: * ---------------------------------------------------------------------------- *
+2022-12-22T04:18:37: * Version: 2.0.0                                                               *
+2022-12-22T04:18:37: ********************************************************************************
+2022-12-22T04:18:37: +============+
+2022-12-22T04:18:37: | Parameters |
+2022-12-22T04:18:37: +============+
+2022-12-22T04:18:37:  inpnt .....................: pointings.txt
+2022-12-22T04:18:37:  outobs ....................: obsdef.xml
+2022-12-22T04:18:37:  duration ..................: 7200
+2022-12-22T04:18:37:  name ......................: None
+2022-12-22T04:18:37:  instrument ................: CTA
+2022-12-22T04:18:37:  caldb .....................: mult3_zd20_m2
+2022-12-22T04:18:37:  irf .......................: South_50h
+2022-12-22T04:18:37:  emin ......................: 0.1
+2022-12-22T04:18:37:  emax ......................: 10
+2022-12-22T04:18:37:  rad .......................: 4
+2022-12-22T04:18:37:  deadc .....................: 0.98
+2022-12-22T04:18:37:  mjdref ....................: 51544.5
+2022-12-22T04:18:37:  chatter ...................: 4
+2022-12-22T04:18:37:  clobber ...................: yes
+2022-12-22T04:18:37:  debug .....................: yes
+2022-12-22T04:18:37:  mode ......................: ql
+2022-12-22T04:18:37:  logfile ...................: csobsdef.log
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37: +==========================================+
+2022-12-22T04:18:37: | Creating observation definition XML file |
+2022-12-22T04:18:37: +==========================================+
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="1"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 1
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51544.5 - 51544.5833333333 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="2"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 2
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51544.5833333333 - 51544.6666666667 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="3"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 3
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51544.6666666667 - 51544.75 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="4"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 4
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51544.75 - 51544.8333333333 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="5"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 5
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51544.8333333333 - 51544.9166666667 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="6"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 6
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51544.9166666667 - 51545 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="7"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 7
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545 - 51545.0833333333 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="8"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 8
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.0833333333 - 51545.1666666667 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="9"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 9
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.1666666667 - 51545.25 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="10"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 10
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.25 - 51545.3333333333 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="11"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 11
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.3333333333 - 51545.4166666667 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="12"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 12
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.4166666667 - 51545.5 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="13"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 13
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.5 - 51545.5833333333 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="14"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 14
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.5833333333 - 51545.6666666667 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="15"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 15
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.6666666667 - 51545.75 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="16"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 16
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.75 - 51545.8333333333 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="17"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 17
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.8333333333 - 51545.9166666667 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="18"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 18
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51545.9166666667 - 51546 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="19"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 19
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51546 - 51546.0833333333 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=267.68, DEC=-29.61 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="20"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 20
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51546.0833333333 - 51546.1666666667 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="21"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 21
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51546.1666666667 - 51546.25 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="22"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 22
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51546.25 - 51546.3333333333 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="23"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 23
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51546.3333333333 - 51546.4166666667 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:37:  CTA observation ...........: Name="None" ID="24"
+2022-12-22T04:18:37: === GCTAObservation ===
+2022-12-22T04:18:37:  Name ......................: None
+2022-12-22T04:18:37:  Identifier ................: 24
+2022-12-22T04:18:37:  Instrument ................: CTA
+2022-12-22T04:18:37:  Event file ................: 
+2022-12-22T04:18:37:  Event type ................: EventList
+2022-12-22T04:18:37:  Statistic .................: cstat
+2022-12-22T04:18:37:  Ontime ....................: 7200 s
+2022-12-22T04:18:37:  Livetime ..................: 7056 s
+2022-12-22T04:18:37:  Deadtime correction .......: 0.98
+2022-12-22T04:18:37:  User energy range .........: undefined
+2022-12-22T04:18:37: === GCTAPointing ===
+2022-12-22T04:18:37:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:37: === GCTAResponseIrf ===
+2022-12-22T04:18:37:  Caldb mission .............: cta
+2022-12-22T04:18:37:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:37:  Response name .............: South_50h
+2022-12-22T04:18:37:  Energy dispersion .........: Not used
+2022-12-22T04:18:37:  Safe energy range .........: undefined
+2022-12-22T04:18:37: === GCTAEventList ===
+2022-12-22T04:18:37:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:37:  Time interval .............: 51546.4166666667 - 51546.5 days
+2022-12-22T04:18:37:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:37:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:37: === GSkyRegions ===
+2022-12-22T04:18:37:  Number of regions .........: 0
+2022-12-22T04:18:37: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="25"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 25
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51546.5 - 51546.5833333333 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="26"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 26
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51546.5833333333 - 51546.6666666667 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="27"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 27
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51546.6666666667 - 51546.75 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="28"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 28
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51546.75 - 51546.8333333333 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="29"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 29
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51546.8333333333 - 51546.9166666667 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="30"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 30
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51546.9166666667 - 51547 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="31"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 31
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51547 - 51547.0833333333 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="32"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 32
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51547.0833333333 - 51547.1666666667 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="33"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 33
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51547.1666666667 - 51547.25 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="34"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 34
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51547.25 - 51547.3333333333 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="35"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 35
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51547.3333333333 - 51547.4166666667 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="36"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 36
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51547.4166666667 - 51547.5 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="37"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 37
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51547.5 - 51547.5833333333 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38:  CTA observation ...........: Name="None" ID="38"
+2022-12-22T04:18:38: === GCTAObservation ===
+2022-12-22T04:18:38:  Name ......................: None
+2022-12-22T04:18:38:  Identifier ................: 38
+2022-12-22T04:18:38:  Instrument ................: CTA
+2022-12-22T04:18:38:  Event file ................: 
+2022-12-22T04:18:38:  Event type ................: EventList
+2022-12-22T04:18:38:  Statistic .................: cstat
+2022-12-22T04:18:38:  Ontime ....................: 7200 s
+2022-12-22T04:18:38:  Livetime ..................: 7056 s
+2022-12-22T04:18:38:  Deadtime correction .......: 0.98
+2022-12-22T04:18:38:  User energy range .........: undefined
+2022-12-22T04:18:38: === GCTAPointing ===
+2022-12-22T04:18:38:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T04:18:38: === GCTAResponseIrf ===
+2022-12-22T04:18:38:  Caldb mission .............: cta
+2022-12-22T04:18:38:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T04:18:38:  Response name .............: South_50h
+2022-12-22T04:18:38:  Energy dispersion .........: Not used
+2022-12-22T04:18:38:  Safe energy range .........: undefined
+2022-12-22T04:18:38: === GCTAEventList ===
+2022-12-22T04:18:38:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T04:18:38:  Time interval .............: 51547.5833333333 - 51547.6666666667 days
+2022-12-22T04:18:38:  Energy interval ...........: 0.1 - 10 TeV
+2022-12-22T04:18:38:  Region of interest ........: RA=266.04, DEC=-26.98 [0,0] Radius=4 deg
+2022-12-22T04:18:38: === GSkyRegions ===
+2022-12-22T04:18:38:  Number of regions .........: 0
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38: +======================================+
+2022-12-22T04:18:38: | Save observation definition XML file |
+2022-12-22T04:18:38: +======================================+
+2022-12-22T04:18:38:  Observation XML file ......: obsdef.xml
+2022-12-22T04:18:38: 
+2022-12-22T04:18:38: Application "csobsdef" terminated after 1 wall clock seconds, consuming 0.71428 seconds of CPU time and generating a carbon footprint of 0.00299896 g eCO2.

@@ -1,0 +1,263 @@
+2022-12-22T05:22:39: ********************************************************************************
+2022-12-22T05:22:39: *                                    ctlike                                    *
+2022-12-22T05:22:39: * ---------------------------------------------------------------------------- *
+2022-12-22T05:22:39: * Version: 2.0.0                                                               *
+2022-12-22T05:22:39: ********************************************************************************
+2022-12-22T05:22:40: +============+
+2022-12-22T05:22:40: | Parameters |
+2022-12-22T05:22:40: +============+
+2022-12-22T05:22:40:  inobs .....................: cntcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:40:  inmodel ...................: emin=0.10_emax=10.00_side=3.00_models_extend_source_tscalc.xml
+2022-12-22T05:22:40:  expcube ...................: expcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:40:  psfcube ...................: psfcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:40:  edispcube .................: [not queried]
+2022-12-22T05:22:40:  bkgcube ...................: bkgcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:40:  caldb .....................: [not queried]
+2022-12-22T05:22:40:  irf .......................: [not queried]
+2022-12-22T05:22:40:  edisp .....................: no
+2022-12-22T05:22:40:  outmodel ..................: emin=0.10_emax=10.00_side=3.00_models_extend_source_tscalc_results.xml
+2022-12-22T05:22:40:  outcovmat .................: NONE
+2022-12-22T05:22:40:  statistic .................: DEFAULT
+2022-12-22T05:22:40:  refit .....................: no
+2022-12-22T05:22:40:  refit_if_failed ...........: yes
+2022-12-22T05:22:40:  like_accuracy .............: 0.005
+2022-12-22T05:22:40:  accept_dec ................: 0.0
+2022-12-22T05:22:40:  max_iter ..................: 50
+2022-12-22T05:22:40:  fix_spat_for_ts ...........: no
+2022-12-22T05:22:40:  nthreads ..................: 0
+2022-12-22T05:22:40:  chatter ...................: 4
+2022-12-22T05:22:40:  clobber ...................: yes
+2022-12-22T05:22:40:  debug .....................: yes
+2022-12-22T05:22:40:  mode ......................: ql
+2022-12-22T05:22:40:  logfile ...................: ctlike_emin=0.10_emax=10.00_side=3.00_extend_source.log
+2022-12-22T05:22:40: 
+2022-12-22T05:22:40: WARNING: Energy dispersion will *NOT* be considered for the computation. To consider
+2022-12-22T05:22:40:          energy dispersion, please set the "edisp" parameter to "yes". Be aware that
+2022-12-22T05:22:40:          using energy dispersion will considerably slow down the computations.
+2022-12-22T05:22:40: 
+2022-12-22T05:22:40: +===================+
+2022-12-22T05:22:40: | Input observation |
+2022-12-22T05:22:40: +===================+
+2022-12-22T05:22:40: === GObservations ===
+2022-12-22T05:22:40:  Number of observations ....: 1
+2022-12-22T05:22:40:  Number of models ..........: 2
+2022-12-22T05:22:40:  Number of observed events .: 2991666
+2022-12-22T05:22:40:  Number of predicted events : 0
+2022-12-22T05:22:40: === GCTAObservation ===
+2022-12-22T05:22:40:  Name ......................: 
+2022-12-22T05:22:40:  Identifier ................: 
+2022-12-22T05:22:40:  Instrument ................: CTA
+2022-12-22T05:22:40:  Event file ................: cntcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:40:  Event type ................: CountsCube
+2022-12-22T05:22:40:  Statistic .................: cstat
+2022-12-22T05:22:40:  Ontime ....................: 273600 s
+2022-12-22T05:22:40:  Livetime ..................: 268128 s
+2022-12-22T05:22:40:  Deadtime correction .......: 0.98
+2022-12-22T05:22:40:  User energy range .........: undefined
+2022-12-22T05:22:40: === GCTAPointing ===
+2022-12-22T05:22:40:  Pointing direction ........: (RA,Dec)=(266.85998535,-28.295)
+2022-12-22T05:22:40: === GCTAResponseCube ===
+2022-12-22T05:22:40:  Energy dispersion .........: Not used
+2022-12-22T05:22:40: === GCTACubeExposure ===
+2022-12-22T05:22:40:  Filename ..................: expcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:40:  Livetime ..................: 268128 sec
+2022-12-22T05:22:40: === GEnergies ===
+2022-12-22T05:22:40:  Number of energies ........: 51
+2022-12-22T05:22:40: === GGti ===
+2022-12-22T05:22:40:  Number of intervals .......: 38
+2022-12-22T05:22:40:  Ontime ....................: 273600 sec
+2022-12-22T05:22:40:  Elapsed time ..............: 273600 sec
+2022-12-22T05:22:40:  MJD range .................: 51544.5 - 51547.6666666667 s (TT)
+2022-12-22T05:22:40:  UTC range .................: 2000-01-01T11:58:56 - 2000-01-04T15:58:56 s (TT)
+2022-12-22T05:22:40:  Reference MJD .............: 51544.5
+2022-12-22T05:22:40: === GSkyMap ===
+2022-12-22T05:22:40:  Number of pixels ..........: 22500
+2022-12-22T05:22:40:  X axis dimension ..........: 150
+2022-12-22T05:22:40:  Y axis dimension ..........: 150
+2022-12-22T05:22:40:  Number of maps ............: 51
+2022-12-22T05:22:40:  Shape of maps .............: (51)
+2022-12-22T05:22:40: === GCTACubePsf ===
+2022-12-22T05:22:40:  Filename ..................: psfcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:40: === GEnergies ===
+2022-12-22T05:22:40:  Number of energies ........: 51
+2022-12-22T05:22:40:  Number of delta bins ......: 200
+2022-12-22T05:22:40:  Delta range ...............: 1.875e-06 - 0.298501875 deg
+2022-12-22T05:22:40: === GSkyMap ===
+2022-12-22T05:22:40:  Number of pixels ..........: 100
+2022-12-22T05:22:40:  X axis dimension ..........: 10
+2022-12-22T05:22:40:  Y axis dimension ..........: 10
+2022-12-22T05:22:40:  Number of maps ............: 10200
+2022-12-22T05:22:40:  Shape of maps .............: (200, 51)
+2022-12-22T05:22:40: === GCTACubeBackground ===
+2022-12-22T05:22:40:  Filename ..................: bkgcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:40: === GEbounds ===
+2022-12-22T05:22:40:  Number of intervals .......: 50
+2022-12-22T05:22:40:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:22:40: === GSkyMap ===
+2022-12-22T05:22:40:  Number of pixels ..........: 22500
+2022-12-22T05:22:40:  X axis dimension ..........: 150
+2022-12-22T05:22:40:  Y axis dimension ..........: 150
+2022-12-22T05:22:40:  Number of maps ............: 50
+2022-12-22T05:22:40:  Shape of maps .............: (50)
+2022-12-22T05:22:40: === GResponseCache ===
+2022-12-22T05:22:40:  Number of cached values ...: 0
+2022-12-22T05:22:40: === GCTAEventCube ===
+2022-12-22T05:22:40:  Number of events ..........: 2991666
+2022-12-22T05:22:40:  Number of elements ........: 1125000
+2022-12-22T05:22:40:  Number of pixels ..........: 22500
+2022-12-22T05:22:40:  Number of energy bins .....: 50
+2022-12-22T05:22:40:  Time interval .............: 51544.5 - 51547.6666666667 days
+2022-12-22T05:22:40:  Pointing ..................: (RA,Dec)=(266.85998535,-28.295)
+2022-12-22T05:22:40: === GEbounds ===
+2022-12-22T05:22:40:  Number of intervals .......: 50
+2022-12-22T05:22:40:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:22:40: === GSkyMap ===
+2022-12-22T05:22:40:  Number of pixels ..........: 22500
+2022-12-22T05:22:40:  X axis dimension ..........: 150
+2022-12-22T05:22:40:  Y axis dimension ..........: 150
+2022-12-22T05:22:40:  Number of maps ............: 50
+2022-12-22T05:22:40:  Shape of maps .............: (50)
+2022-12-22T05:22:40: === GSkyRegions ===
+2022-12-22T05:22:40:  Number of regions .........: 0
+2022-12-22T05:22:40: === GModels ===
+2022-12-22T05:22:40:  Number of models ..........: 2
+2022-12-22T05:22:40:  Number of parameters ......: 11
+2022-12-22T05:22:40: === GModelSky ===
+2022-12-22T05:22:40:  Name ......................: pwn_0
+2022-12-22T05:22:40:  Instruments ...............: all
+2022-12-22T05:22:40:  Observation identifiers ...: all
+2022-12-22T05:22:40:  Model type ................: ExtendedSource
+2022-12-22T05:22:40:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2022-12-22T05:22:40:  Number of parameters ......: 7
+2022-12-22T05:22:40:  Number of spatial par's ...: 3
+2022-12-22T05:22:40:   GLON .....................: 0 [-360,360] deg (fixed,scale=1,gradient)
+2022-12-22T05:22:40:   GLAT .....................: 0 [-90,90] deg (fixed,scale=1,gradient)
+2022-12-22T05:22:40:   Sigma ....................: 0.001 +/- 0 [0.001,10] deg (free,scale=1,gradient)
+2022-12-22T05:22:40:  Number of spectral par's ..: 3
+2022-12-22T05:22:40:   Prefactor ................: 5.7e-18 +/- 0 [1e-23,1e-13] ph/cm2/s/MeV (free,scale=1e-16,gradient)
+2022-12-22T05:22:40:   Index ....................: -2.48 [-5,-0]  (fixed,scale=-1,gradient)
+2022-12-22T05:22:40:   PivotEnergy ..............: 300000 [10000,1000000000] MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:22:40:  Number of temporal par's ..: 1
+2022-12-22T05:22:40:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:22:40:  Number of scale par's .....: 0
+2022-12-22T05:22:40: === GCTAModelCubeBackground ===
+2022-12-22T05:22:40:  Name ......................: BackgroundModel
+2022-12-22T05:22:40:  Instruments ...............: CTA, HESS, MAGIC, VERITAS, ASTRI
+2022-12-22T05:22:40:  Observation identifiers ...: all
+2022-12-22T05:22:40:  Model type ................: "PowerLaw" * "Constant"
+2022-12-22T05:22:40:  Number of parameters ......: 4
+2022-12-22T05:22:40:  Number of spectral par's ..: 3
+2022-12-22T05:22:40:   Prefactor ................: 1 [0.01,100] ph/cm2/s/MeV (fixed,scale=1,gradient)
+2022-12-22T05:22:40:   Index ....................: 0 [-5,5]  (fixed,scale=1,gradient)
+2022-12-22T05:22:40:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:22:40:  Number of temporal par's ..: 1
+2022-12-22T05:22:40:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:22:40: 
+2022-12-22T05:22:40: +=================================+
+2022-12-22T05:22:40: | Maximum likelihood optimisation |
+2022-12-22T05:22:40: +=================================+
+2022-12-22T05:22:42:  >Iteration   0: -logL=-3640029.704, Lambda=1.0e-03
+2022-12-22T05:22:49:   Iteration   1: -logL=-3640029.704, Lambda=1.0e-03, delta=-905.704, step=1.0e+00, max(|grad|)=6903.617685 [Prefactor:3] (stalled)
+2022-12-22T05:22:54:   Iteration   2: -logL=-3640029.704, Lambda=1.0e-02, delta=-325.282, step=1.0e+00, max(|grad|)=7165.902160 [Prefactor:3] (stalled)
+2022-12-22T05:22:56:  >Iteration   3: -logL=-3640124.894, Lambda=1.0e-01, delta=95.190, step=1.0e+00, max(|grad|)=-6586.545398 [Sigma:2]
+2022-12-22T05:22:58:  >Iteration   4: -logL=-3640168.145, Lambda=1.0e-02, delta=43.251, step=1.0e+00, max(|grad|)=-1143.868017 [Prefactor:3]
+2022-12-22T05:23:01:  >Iteration   5: -logL=-3640169.834, Lambda=1.0e-03, delta=1.689, step=1.0e+00, max(|grad|)=-34.948601 [Prefactor:3]
+2022-12-22T05:23:03:  >Iteration   6: -logL=-3640169.836, Lambda=1.0e-04, delta=0.002, step=1.0e+00, max(|grad|)=-0.017063 [Sigma:2]
+2022-12-22T05:23:03:   Refit requested ...........: Difference -1309.187 between number of observed events 2991666.000 and predicted events 2992975.187 is larger than +/- 1.0e-5 times the number of observed events (-0.000437611475166316).
+2022-12-22T05:23:03: 
+2022-12-22T05:23:03: +====================================+
+2022-12-22T05:23:03: | Maximum likelihood re-optimisation |
+2022-12-22T05:23:03: +====================================+
+2022-12-22T05:23:06:  >Iteration   0: -logL=-3640169.836, Lambda=1.0e-03
+2022-12-22T05:23:08:   Iteration   1: -logL=-3640169.836, Lambda=1.0e-03, delta=-0.000, step=1.0e+00, max(|grad|)=0.000076 [Sigma:2] (stalled)
+2022-12-22T05:23:11:   Iteration   2: -logL=-3640169.836, Lambda=1.0e-02, delta=-0.000, step=1.0e+00, max(|grad|)=-0.000136 [Prefactor:3] (stalled)
+2022-12-22T05:23:13:   Iteration   3: -logL=-3640169.836, Lambda=1.0e-01, delta=-0.000, step=1.0e+00, max(|grad|)=-0.001779 [Sigma:2] (stalled)
+2022-12-22T05:23:16:   Iteration   4: -logL=-3640169.836, Lambda=1.0e+00, delta=-0.000, step=1.0e+00, max(|grad|)=-0.009041 [Sigma:2] (stalled)
+2022-12-22T05:23:18:   Iteration   5: -logL=-3640169.836, Lambda=1.0e+01, delta=-0.000, step=1.0e+00, max(|grad|)=-0.015584 [Sigma:2] (stalled)
+2022-12-22T05:23:21:   Iteration   6: -logL=-3640169.836, Lambda=1.0e+02, delta=-0.000, step=1.0e+00, max(|grad|)=-0.016901 [Sigma:2] (stalled)
+2022-12-22T05:23:23:   Iteration   7: -logL=-3640169.836, Lambda=1.0e+03, delta=-0.000, step=1.0e+00, max(|grad|)=-0.017048 [Sigma:2] (stalled)
+2022-12-22T05:23:26:   Iteration   8: -logL=-3640169.836, Lambda=1.0e+04, delta=-0.000, step=1.0e+00, max(|grad|)=-0.017062 [Sigma:2] (stalled)
+2022-12-22T05:23:28:   Iteration   9: -logL=-3640169.836, Lambda=1.0e+05, delta=-0.000, step=1.0e+00, max(|grad|)=-0.017063 [Sigma:2] (stalled)
+2022-12-22T05:23:31:  >Iteration  10: -logL=-3640169.836, Lambda=1.0e+06, delta=0.000, step=1.0e+00, max(|grad|)=-0.017063 [Sigma:2]
+2022-12-22T05:23:31:  
+2022-12-22T05:23:31:  +==================+
+2022-12-22T05:23:31:  | Curvature matrix |
+2022-12-22T05:23:31:  +==================+
+2022-12-22T05:23:31:  === GMatrixSparse ===
+2022-12-22T05:23:31:   Number of rows ............: 11
+2022-12-22T05:23:31:   Number of columns .........: 11
+2022-12-22T05:23:31:   Number of nonzero elements : 4
+2022-12-22T05:23:31:   Number of allocated cells .: 512
+2022-12-22T05:23:31:   Memory block size .........: 512
+2022-12-22T05:23:31:   Sparse matrix fill ........: 0.0330578512396694
+2022-12-22T05:23:31:   Pending element ...........: 0
+2022-12-22T05:23:31:   Fill stack size ...........: 0 (none)
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 515124.655684712, -184359.123230709, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, -184359.123230709, 395180.644344433, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:31:   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2022-12-22T05:23:34: 
+2022-12-22T05:23:34: +=========================================+
+2022-12-22T05:23:34: | Maximum likelihood optimisation results |
+2022-12-22T05:23:34: +=========================================+
+2022-12-22T05:23:34: === GOptimizerLM ===
+2022-12-22T05:23:34:  Optimized function value ..: -3640169.836
+2022-12-22T05:23:34:  Absolute precision ........: 0.005
+2022-12-22T05:23:34:  Acceptable value decrease .: 0
+2022-12-22T05:23:34:  Optimization status .......: converged
+2022-12-22T05:23:34:  Number of parameters ......: 11
+2022-12-22T05:23:34:  Number of free parameters .: 2
+2022-12-22T05:23:34:  Number of iterations ......: 10
+2022-12-22T05:23:34:  Lambda ....................: 100000
+2022-12-22T05:23:34:  Total number of iterations : 16
+2022-12-22T05:23:34:  Maximum log likelihood ....: 3640169.836
+2022-12-22T05:23:34:  Observed events  (Nobs) ...: 2991666.000
+2022-12-22T05:23:34:  Predicted events (Npred) ..: 2992975.187 (Nobs - Npred = -1309.18737146771)
+2022-12-22T05:23:34: === GModels ===
+2022-12-22T05:23:34:  Number of models ..........: 2
+2022-12-22T05:23:34:  Number of parameters ......: 11
+2022-12-22T05:23:34: === GModelSky ===
+2022-12-22T05:23:34:  Name ......................: pwn_0
+2022-12-22T05:23:34:  Instruments ...............: all
+2022-12-22T05:23:34:  Observation identifiers ...: all
+2022-12-22T05:23:34:  Model type ................: ExtendedSource
+2022-12-22T05:23:34:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2022-12-22T05:23:34:  Number of parameters ......: 7
+2022-12-22T05:23:34:  Number of spatial par's ...: 3
+2022-12-22T05:23:34:   GLON .....................: 0 [-360,360] deg (fixed,scale=1,gradient)
+2022-12-22T05:23:34:   GLAT .....................: 0 [-90,90] deg (fixed,scale=1,gradient)
+2022-12-22T05:23:34:   Sigma ....................: 0.0307799997662187 +/- 0.00152655265372362 [0.001,10] deg (free,scale=1,gradient)
+2022-12-22T05:23:34:  Number of spectral par's ..: 3
+2022-12-22T05:23:34:   Prefactor ................: 5.79429736312895e-18 +/- 1.74289058814571e-19 [1e-23,1e-13] ph/cm2/s/MeV (free,scale=1e-16,gradient)
+2022-12-22T05:23:34:   Index ....................: -2.48 [-5,-0]  (fixed,scale=-1,gradient)
+2022-12-22T05:23:34:   PivotEnergy ..............: 300000 [10000,1000000000] MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:23:34:  Number of temporal par's ..: 1
+2022-12-22T05:23:34:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:23:34:  Number of scale par's .....: 0
+2022-12-22T05:23:34: === GCTAModelCubeBackground ===
+2022-12-22T05:23:34:  Name ......................: BackgroundModel
+2022-12-22T05:23:34:  Instruments ...............: CTA, HESS, MAGIC, VERITAS, ASTRI
+2022-12-22T05:23:34:  Observation identifiers ...: all
+2022-12-22T05:23:34:  Model type ................: "PowerLaw" * "Constant"
+2022-12-22T05:23:34:  Number of parameters ......: 4
+2022-12-22T05:23:34:  Number of spectral par's ..: 3
+2022-12-22T05:23:34:   Prefactor ................: 1 [0.01,100] ph/cm2/s/MeV (fixed,scale=1,gradient)
+2022-12-22T05:23:34:   Index ....................: 0 [-5,5]  (fixed,scale=1,gradient)
+2022-12-22T05:23:34:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:23:34:  Number of temporal par's ..: 1
+2022-12-22T05:23:34:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:23:34: 
+2022-12-22T05:23:34: +==============+
+2022-12-22T05:23:34: | Save results |
+2022-12-22T05:23:34: +==============+
+2022-12-22T05:23:34:  Model definition file .....: emin=0.10_emax=10.00_side=3.00_models_extend_source_tscalc_results.xml
+2022-12-22T05:23:34:  Covariance matrix file ....: NONE
+2022-12-22T05:23:34: 
+2022-12-22T05:23:34: Application "ctlike" terminated after 55 wall clock seconds, consuming 54.6799 seconds of CPU time and generating a carbon footprint of 0.212681 g eCO2.

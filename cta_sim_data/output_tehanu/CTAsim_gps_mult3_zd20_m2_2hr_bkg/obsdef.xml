@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<observation_list title="observation list">
+  <observation name="None" id="1" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="0" tmax="7200" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="2" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="7200" tmax="14400" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="3" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="14400" tmax="21600" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="4" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="21600" tmax="28800" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="5" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="28800" tmax="36000" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="6" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="36000" tmax="43200" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="7" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="43200" tmax="50400" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="8" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="50400" tmax="57600" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="9" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="57600" tmax="64800" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="10" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="64800" tmax="72000" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="11" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="72000" tmax="79200" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="12" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="79200" tmax="86400" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="13" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="86400" tmax="93600" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="14" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="93600" tmax="100800" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="15" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="100800" tmax="108000" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="16" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="108000" tmax="115200" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="17" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="115200" tmax="122400" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="18" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="122400" tmax="129600" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="19" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="267.68" dec="-29.61" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="129600" tmax="136800" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="267.68" dec="-29.61" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="20" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="136800" tmax="144000" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="21" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="144000" tmax="151200" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="22" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="151200" tmax="158400" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="23" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="158400" tmax="165600" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="24" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="165600" tmax="172800" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="25" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="172800" tmax="180000" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="26" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="180000" tmax="187200" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="27" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="187200" tmax="194400" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="28" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="194400" tmax="201600" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="29" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="201600" tmax="208800" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="30" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="208800" tmax="216000" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="31" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="216000" tmax="223200" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="32" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="223200" tmax="230400" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="33" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="230400" tmax="237600" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="34" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="237600" tmax="244800" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="35" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="244800" tmax="252000" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="36" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="252000" tmax="259200" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="37" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="259200" tmax="266400" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="38" instrument="CTA" statistic="cstat">
+    <parameter name="Pointing" ra="266.04" dec="-26.98" />
+    <parameter name="EnergyBoundaries" emin="100000" emax="10000000" />
+    <parameter name="GoodTimeIntervals" tmin="266400" tmax="273600" />
+    <parameter name="TimeReference" mjdrefi="51544" mjdreff="0.5" timeunit="s" timesys="TT" timeref="LOCAL" />
+    <parameter name="RegionOfInterest" ra="266.04" dec="-26.98" rad="4" />
+    <parameter name="Deadtime" deadc="0.98" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+</observation_list>
