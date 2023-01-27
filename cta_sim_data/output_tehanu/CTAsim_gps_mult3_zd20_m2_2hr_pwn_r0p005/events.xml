@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<observation_list title="observation list">
+  <observation name="None" id="1" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000001.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="2" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000002.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="3" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000003.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="4" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000004.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="5" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000005.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="6" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000006.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="7" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000007.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="8" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000008.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="9" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000009.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="10" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000010.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="11" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000011.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="12" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000012.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="13" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000013.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="14" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000014.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="15" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000015.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="16" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000016.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="17" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000017.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="18" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000018.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="19" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000019.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="20" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000020.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="21" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000021.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="22" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000022.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="23" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000023.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="24" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000024.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="25" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000025.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="26" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000026.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="27" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000027.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="28" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000028.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="29" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000029.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="30" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000030.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="31" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000031.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="32" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000032.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="33" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000033.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="34" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000034.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="35" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000035.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="36" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000036.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="37" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000037.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+  <observation name="None" id="38" instrument="CTA" statistic="cstat">
+    <parameter name="EventList" file="sim_events_000038.fits" />
+    <parameter name="Calibration" database="mult3_zd20_m2" response="South_50h" />
+  </observation>
+</observation_list>

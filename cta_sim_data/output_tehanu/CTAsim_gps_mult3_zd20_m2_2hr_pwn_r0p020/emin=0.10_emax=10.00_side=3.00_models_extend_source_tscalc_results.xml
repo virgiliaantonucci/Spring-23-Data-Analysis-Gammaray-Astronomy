@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ctlike_results title="ctlike fit results">
+  <status>converged</status>
+  <log-likelihood>3640399.79850042</log-likelihood>
+  <precision>0.005</precision>
+  <iterations>11</iterations>
+  <lambda>1</lambda>
+  <total_parameters>11</total_parameters>
+  <fitted_parameters>2</fitted_parameters>
+  <observed-events>2991659</observed-events>
+  <predicted-events>2992969.48696025</predicted-events>
+  <refit>no</refit>
+  <edisp>no</edisp>
+  <fix-spatial-for-ts>no</fix-spatial-for-ts>
+  <elapsed-time>35</elapsed-time>
+  <cpu-seconds>34.9788896958344</cpu-seconds>
+</ctlike_results>
+<source_library title="source library">
+  <source name="pwn_0" type="ExtendedSource">
+    <spectrum type="PowerLaw">
+      <parameter name="Prefactor" value="0.0578618581606297" error="0.00161679867290756" scale="1e-16" min="1e-07" max="1000" free="1" />
+      <parameter name="Index" value="2.48" scale="-1" min="0" max="5" free="0" />
+      <parameter name="PivotEnergy" value="0.3" scale="1000000" min="0.01" max="1000" free="0" />
+    </spectrum>
+    <spatialModel type="RadialGaussian">
+      <parameter name="GLON" value="0" scale="1" min="-360" max="360" free="0" />
+      <parameter name="GLAT" value="0" scale="1" min="-90" max="90" free="0" />
+      <parameter name="Sigma" value="0.0206530737262846" error="0.00142766615628182" scale="1" min="0.001" max="10" free="1" />
+    </spatialModel>
+  </source>
+  <source name="BackgroundModel" type="CTACubeBackground" instrument="CTA,HESS,MAGIC,VERITAS,ASTRI">
+    <spectrum type="PowerLaw">
+      <parameter name="Prefactor" value="1" scale="1" min="0.01" max="100" free="0" />
+      <parameter name="Index" value="0" scale="1" min="-5" max="5" free="0" />
+      <parameter name="PivotEnergy" value="1" scale="1000000" free="0" />
+    </spectrum>
+  </source>
+</source_library>

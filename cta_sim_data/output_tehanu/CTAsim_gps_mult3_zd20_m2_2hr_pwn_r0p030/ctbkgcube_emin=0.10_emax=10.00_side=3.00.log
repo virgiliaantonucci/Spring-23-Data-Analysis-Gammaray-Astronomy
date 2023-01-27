@@ -1,0 +1,2978 @@
+2022-12-22T05:19:25: ********************************************************************************
+2022-12-22T05:19:25: *                                   ctbkgcube                                  *
+2022-12-22T05:19:25: * ---------------------------------------------------------------------------- *
+2022-12-22T05:19:25: * Version: 2.0.0                                                               *
+2022-12-22T05:19:25: ********************************************************************************
+2022-12-22T05:19:26: +============+
+2022-12-22T05:19:26: | Parameters |
+2022-12-22T05:19:26: +============+
+2022-12-22T05:19:26:  inobs .....................: obsdef.xml
+2022-12-22T05:19:26:  incube ....................: cntcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:19:26:  inmodel ...................: /nevis/tehanu/home/ryshang/CTA_sim/Ruo/condor_sub/models/model_galactic_single_r0p030.xml
+2022-12-22T05:19:26:  caldb .....................: mult3_zd20_m2
+2022-12-22T05:19:26:  irf .......................: South_50h
+2022-12-22T05:19:26:  outcube ...................: bkgcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:19:26:  outmodel ..................: emin=0.10_emax=10.00_side=3.00_models.xml
+2022-12-22T05:19:26:  publish ...................: no
+2022-12-22T05:19:26:  chatter ...................: 4
+2022-12-22T05:19:26:  clobber ...................: yes
+2022-12-22T05:19:26:  debug .....................: yes
+2022-12-22T05:19:26:  mode ......................: ql
+2022-12-22T05:19:26:  logfile ...................: ctbkgcube_emin=0.10_emax=10.00_side=3.00.log
+2022-12-22T05:19:26: 
+2022-12-22T05:19:26: +====================+
+2022-12-22T05:19:26: | Input observations |
+2022-12-22T05:19:26: +====================+
+2022-12-22T05:19:54: === GObservations ===
+2022-12-22T05:19:54:  Number of observations ....: 38
+2022-12-22T05:19:54:  Number of models ..........: 2
+2022-12-22T05:19:54:  Number of observed events .: 0
+2022-12-22T05:19:54:  Number of predicted events : 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 1
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51544.5 - 51544.5833333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 2
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51544.5833333333 - 51544.6666666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 3
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51544.6666666667 - 51544.75 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 4
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51544.75 - 51544.8333333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 5
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51544.8333333333 - 51544.9166666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 6
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51544.9166666667 - 51545 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 7
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545 - 51545.0833333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 8
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.0833333333 - 51545.1666666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 9
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.1666666667 - 51545.25 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 10
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.25 - 51545.3333333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 11
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.3333333333 - 51545.4166666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 12
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.4166666667 - 51545.5 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 13
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.5 - 51545.5833333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 14
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.5833333333 - 51545.6666666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 15
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.6666666667 - 51545.75 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 16
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.75 - 51545.8333333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 17
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.8333333333 - 51545.9166666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 18
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51545.9166666667 - 51546 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 19
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(267.68,-29.61)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546 - 51546.0833333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=267.68, DEC=-29.61 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 20
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.0833333333 - 51546.1666666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 21
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.1666666667 - 51546.25 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 22
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.25 - 51546.3333333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 23
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.3333333333 - 51546.4166666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 24
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.4166666667 - 51546.5 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 25
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.5 - 51546.5833333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 26
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.5833333333 - 51546.6666666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 27
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.6666666667 - 51546.75 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 28
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.75 - 51546.8333333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 29
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.8333333333 - 51546.9166666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 30
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51546.9166666667 - 51547 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 31
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51547 - 51547.0833333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 32
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51547.0833333333 - 51547.1666666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 33
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51547.1666666667 - 51547.25 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 34
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51547.25 - 51547.3333333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 35
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51547.3333333333 - 51547.4166666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 36
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51547.4166666667 - 51547.5 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 37
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51547.5 - 51547.5833333333 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GCTAObservation ===
+2022-12-22T05:19:54:  Name ......................: None
+2022-12-22T05:19:54:  Identifier ................: 38
+2022-12-22T05:19:54:  Instrument ................: CTA
+2022-12-22T05:19:54:  Event file ................: 
+2022-12-22T05:19:54:  Event type ................: EventList
+2022-12-22T05:19:54:  Statistic .................: cstat
+2022-12-22T05:19:54:  Ontime ....................: 7200 s
+2022-12-22T05:19:54:  Livetime ..................: 7056 s
+2022-12-22T05:19:54:  Deadtime correction .......: 0.98
+2022-12-22T05:19:54:  User energy range .........: undefined
+2022-12-22T05:19:54: === GCTAPointing ===
+2022-12-22T05:19:54:  Pointing direction ........: (RA,Dec)=(266.04,-26.98)
+2022-12-22T05:19:54: === GCTAResponseIrf ===
+2022-12-22T05:19:54:  Caldb mission .............: cta
+2022-12-22T05:19:54:  Caldb instrument ..........: mult3_zd20_m2
+2022-12-22T05:19:54:  Response name .............: South_50h
+2022-12-22T05:19:54:  Energy dispersion .........: Not used
+2022-12-22T05:19:54:  Safe energy range .........: undefined
+2022-12-22T05:19:54: === GCaldb ===
+2022-12-22T05:19:54:  Database root .............: /a/share/serret/src/gamma-2.0.0//share/caldb
+2022-12-22T05:19:54:  Selected Mission ..........: CTA
+2022-12-22T05:19:54:  Selected Instrument .......: MULT3_ZD20_M2
+2022-12-22T05:19:54:  Calibration Index File ....: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/caldb.indx
+2022-12-22T05:19:54:  Number of entries .........: 4
+2022-12-22T05:19:54: === GCTAAeff2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 42
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54:  Lower energy threshold ....: not specified
+2022-12-22T05:19:54:  Upper energy threshold ....: not specified
+2022-12-22T05:19:54:  Radius cut ................: none
+2022-12-22T05:19:54: === GCTAPsf2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 25
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 1258.92541503906 TeV
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTAEdisp2D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 500
+2022-12-22T05:19:54:  Number of migration bins ..: 300
+2022-12-22T05:19:54:  Number of offset bins .....: 6
+2022-12-22T05:19:54:  Energy range ..............: 0.00501187238842249 - 501.187225341797 TeV
+2022-12-22T05:19:54:  Migration range ...........: 0 - 3
+2022-12-22T05:19:54:  Offset angle range ........: 0 - 6 deg
+2022-12-22T05:19:54: === GCTABackground3D ===
+2022-12-22T05:19:54:  Filename ..................: /a/share/serret/src/gamma-2.0.0//share/caldb/data/cta/mult3_zd20_m2/bcf/South_50h/irf_file.fits
+2022-12-22T05:19:54:  Number of energy bins .....: 21
+2022-12-22T05:19:54:  Number of DETX bins .......: 12
+2022-12-22T05:19:54:  Number of DETY bins .......: 12
+2022-12-22T05:19:54:  Energy range ..............: 0.0125892544165254 - 199.526229858398 TeV
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54:  DETX range ................: -6 - 6 deg
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GResponseCache ===
+2022-12-22T05:19:54:  Number of cached values ...: 0
+2022-12-22T05:19:54: === GCTAEventList ===
+2022-12-22T05:19:54:  Number of events ..........: 0 (disposed without possibility to recover)
+2022-12-22T05:19:54:  Time interval .............: 51547.5833333333 - 51547.6666666667 days
+2022-12-22T05:19:54: === GEbounds ===
+2022-12-22T05:19:54:  Number of intervals .......: 1
+2022-12-22T05:19:54:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:19:54: === GCTARoi ===
+2022-12-22T05:19:54:  RoI centre ................: RA=266.04, DEC=-26.98 [0,0]
+2022-12-22T05:19:54:  RoI radius ................: 4 deg
+2022-12-22T05:19:54: === GSkyRegions ===
+2022-12-22T05:19:54:  Number of regions .........: 0
+2022-12-22T05:19:54: === GModels ===
+2022-12-22T05:19:54:  Number of models ..........: 2
+2022-12-22T05:19:54:  Number of parameters ......: 11
+2022-12-22T05:19:54: === GModelSky ===
+2022-12-22T05:19:54:  Name ......................: pwn_0
+2022-12-22T05:19:54:  Instruments ...............: all
+2022-12-22T05:19:54:  Observation identifiers ...: all
+2022-12-22T05:19:54:  Model type ................: ExtendedSource
+2022-12-22T05:19:54:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2022-12-22T05:19:54:  Number of parameters ......: 7
+2022-12-22T05:19:54:  Number of spatial par's ...: 3
+2022-12-22T05:19:54:   GLON .....................: 0 [-360,360] deg (fixed,scale=1,gradient)
+2022-12-22T05:19:54:   GLAT .....................: 0 [-90,90] deg (fixed,scale=1,gradient)
+2022-12-22T05:19:54:   Sigma ....................: 0.03 +/- 0 [0.001,10] deg (free,scale=1,gradient)
+2022-12-22T05:19:54:  Number of spectral par's ..: 3
+2022-12-22T05:19:54:   Prefactor ................: 5.7e-18 +/- 0 [1e-23,1e-13] ph/cm2/s/MeV (free,scale=1e-16,gradient)
+2022-12-22T05:19:54:   Index ....................: -2.48 +/- 0 [-5,-0]  (free,scale=-1,gradient)
+2022-12-22T05:19:54:   PivotEnergy ..............: 300000 [10000,1000000000] MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:19:54:  Number of temporal par's ..: 1
+2022-12-22T05:19:54:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:19:54:  Number of scale par's .....: 0
+2022-12-22T05:19:54: === GCTAModelIrfBackground ===
+2022-12-22T05:19:54:  Name ......................: CTABackgroundModel
+2022-12-22T05:19:54:  Instruments ...............: CTA
+2022-12-22T05:19:54:  Observation identifiers ...: all
+2022-12-22T05:19:54:  Model type ................: "PowerLaw" * "Constant"
+2022-12-22T05:19:54:  Number of parameters ......: 4
+2022-12-22T05:19:54:  Number of spectral par's ..: 3
+2022-12-22T05:19:54:   Prefactor ................: 1 +/- 0 [0.001,1000] ph/cm2/s/MeV (free,scale=1,gradient)
+2022-12-22T05:19:54:   Index ....................: 0 +/- 0 [-5,5]  (free,scale=1,gradient)
+2022-12-22T05:19:54:   PivotEnergy ..............: 1000000 [10000,1000000000] MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:19:54:  Number of temporal par's ..: 1
+2022-12-22T05:19:54:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:19:54: 
+2022-12-22T05:19:54: +==============+
+2022-12-22T05:19:54: | Input models |
+2022-12-22T05:19:54: +==============+
+2022-12-22T05:19:54: === GModels ===
+2022-12-22T05:19:54:  Number of models ..........: 2
+2022-12-22T05:19:54:  Number of parameters ......: 11
+2022-12-22T05:19:54: === GModelSky ===
+2022-12-22T05:19:54:  Name ......................: pwn_0
+2022-12-22T05:19:54:  Instruments ...............: all
+2022-12-22T05:19:54:  Observation identifiers ...: all
+2022-12-22T05:19:54:  Model type ................: ExtendedSource
+2022-12-22T05:19:54:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2022-12-22T05:19:54:  Number of parameters ......: 7
+2022-12-22T05:19:54:  Number of spatial par's ...: 3
+2022-12-22T05:19:54:   GLON .....................: 0 [-360,360] deg (fixed,scale=1,gradient)
+2022-12-22T05:19:54:   GLAT .....................: 0 [-90,90] deg (fixed,scale=1,gradient)
+2022-12-22T05:19:54:   Sigma ....................: 0.03 +/- 0 [0.001,10] deg (free,scale=1,gradient)
+2022-12-22T05:19:54:  Number of spectral par's ..: 3
+2022-12-22T05:19:54:   Prefactor ................: 5.7e-18 +/- 0 [1e-23,1e-13] ph/cm2/s/MeV (free,scale=1e-16,gradient)
+2022-12-22T05:19:54:   Index ....................: -2.48 +/- 0 [-5,-0]  (free,scale=-1,gradient)
+2022-12-22T05:19:54:   PivotEnergy ..............: 300000 [10000,1000000000] MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:19:54:  Number of temporal par's ..: 1
+2022-12-22T05:19:54:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:19:54:  Number of scale par's .....: 0
+2022-12-22T05:19:54: === GCTAModelIrfBackground ===
+2022-12-22T05:19:54:  Name ......................: CTABackgroundModel
+2022-12-22T05:19:54:  Instruments ...............: CTA
+2022-12-22T05:19:54:  Observation identifiers ...: all
+2022-12-22T05:19:54:  Model type ................: "PowerLaw" * "Constant"
+2022-12-22T05:19:54:  Number of parameters ......: 4
+2022-12-22T05:19:54:  Number of spectral par's ..: 3
+2022-12-22T05:19:54:   Prefactor ................: 1 +/- 0 [0.001,1000] ph/cm2/s/MeV (free,scale=1,gradient)
+2022-12-22T05:19:54:   Index ....................: 0 +/- 0 [-5,5]  (free,scale=1,gradient)
+2022-12-22T05:19:54:   PivotEnergy ..............: 1000000 [10000,1000000000] MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:19:54:  Number of temporal par's ..: 1
+2022-12-22T05:19:54:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:19:54: 
+2022-12-22T05:19:54: +===============+
+2022-12-22T05:19:54: | Prepare model |
+2022-12-22T05:19:54: +===============+
+2022-12-22T05:19:54:  Keep model ................: CTABackgroundModel CTAIrfBackground(CTA)
+2022-12-22T05:19:54:  Remove model ..............: pwn_0 ExtendedSource()
+2022-12-22T05:19:54: 
+2022-12-22T05:19:54: +==========================+
+2022-12-22T05:19:54: | Generate background cube |
+2022-12-22T05:19:54: +==========================+
+2022-12-22T05:19:54: Including CTA observation "None" (id=1) in background cube computation.
+2022-12-22T05:19:58: Including CTA observation "None" (id=2) in background cube computation.
+2022-12-22T05:20:01: Including CTA observation "None" (id=3) in background cube computation.
+2022-12-22T05:20:05: Including CTA observation "None" (id=4) in background cube computation.
+2022-12-22T05:20:09: Including CTA observation "None" (id=5) in background cube computation.
+2022-12-22T05:20:12: Including CTA observation "None" (id=6) in background cube computation.
+2022-12-22T05:20:16: Including CTA observation "None" (id=7) in background cube computation.
+2022-12-22T05:20:20: Including CTA observation "None" (id=8) in background cube computation.
+2022-12-22T05:20:23: Including CTA observation "None" (id=9) in background cube computation.
+2022-12-22T05:20:27: Including CTA observation "None" (id=10) in background cube computation.
+2022-12-22T05:20:31: Including CTA observation "None" (id=11) in background cube computation.
+2022-12-22T05:20:34: Including CTA observation "None" (id=12) in background cube computation.
+2022-12-22T05:20:38: Including CTA observation "None" (id=13) in background cube computation.
+2022-12-22T05:20:42: Including CTA observation "None" (id=14) in background cube computation.
+2022-12-22T05:20:45: Including CTA observation "None" (id=15) in background cube computation.
+2022-12-22T05:20:49: Including CTA observation "None" (id=16) in background cube computation.
+2022-12-22T05:20:53: Including CTA observation "None" (id=17) in background cube computation.
+2022-12-22T05:20:56: Including CTA observation "None" (id=18) in background cube computation.
+2022-12-22T05:21:00: Including CTA observation "None" (id=19) in background cube computation.
+2022-12-22T05:21:04: Including CTA observation "None" (id=20) in background cube computation.
+2022-12-22T05:21:08: Including CTA observation "None" (id=21) in background cube computation.
+2022-12-22T05:21:11: Including CTA observation "None" (id=22) in background cube computation.
+2022-12-22T05:21:15: Including CTA observation "None" (id=23) in background cube computation.
+2022-12-22T05:21:18: Including CTA observation "None" (id=24) in background cube computation.
+2022-12-22T05:21:22: Including CTA observation "None" (id=25) in background cube computation.
+2022-12-22T05:21:26: Including CTA observation "None" (id=26) in background cube computation.
+2022-12-22T05:21:30: Including CTA observation "None" (id=27) in background cube computation.
+2022-12-22T05:21:33: Including CTA observation "None" (id=28) in background cube computation.
+2022-12-22T05:21:37: Including CTA observation "None" (id=29) in background cube computation.
+2022-12-22T05:21:41: Including CTA observation "None" (id=30) in background cube computation.
+2022-12-22T05:21:44: Including CTA observation "None" (id=31) in background cube computation.
+2022-12-22T05:21:48: Including CTA observation "None" (id=32) in background cube computation.
+2022-12-22T05:21:52: Including CTA observation "None" (id=33) in background cube computation.
+2022-12-22T05:21:55: Including CTA observation "None" (id=34) in background cube computation.
+2022-12-22T05:21:59: Including CTA observation "None" (id=35) in background cube computation.
+2022-12-22T05:22:03: Including CTA observation "None" (id=36) in background cube computation.
+2022-12-22T05:22:06: Including CTA observation "None" (id=37) in background cube computation.
+2022-12-22T05:22:10: Including CTA observation "None" (id=38) in background cube computation.
+2022-12-22T05:22:14: === GCTACubeBackground ===
+2022-12-22T05:22:14:  Filename ..................: 
+2022-12-22T05:22:14: === GEbounds ===
+2022-12-22T05:22:14:  Number of intervals .......: 50
+2022-12-22T05:22:14:  Energy range ..............: 100 GeV - 10 TeV
+2022-12-22T05:22:14:  Energy interval 0 .........: 100 GeV - 109.647819614319 GeV
+2022-12-22T05:22:14:  Energy interval 1 .........: 109.647819614319 GeV - 120.226443461741 GeV
+2022-12-22T05:22:14:  Energy interval 2 .........: 120.226443461741 GeV - 131.825673855641 GeV
+2022-12-22T05:22:14:  Energy interval 3 .........: 131.825673855641 GeV - 144.543977074593 GeV
+2022-12-22T05:22:14:  Energy interval 4 .........: 144.543977074593 GeV - 158.489319246111 GeV
+2022-12-22T05:22:14:  Energy interval 5 .........: 158.489319246111 GeV - 173.780082874938 GeV
+2022-12-22T05:22:14:  Energy interval 6 .........: 173.780082874938 GeV - 190.546071796325 GeV
+2022-12-22T05:22:14:  Energy interval 7 .........: 190.546071796325 GeV - 208.929613085404 GeV
+2022-12-22T05:22:14:  Energy interval 8 .........: 208.929613085404 GeV - 229.086765276777 GeV
+2022-12-22T05:22:14:  Energy interval 9 .........: 229.086765276777 GeV - 251.188643150958 GeV
+2022-12-22T05:22:14:  Energy interval 10 ........: 251.188643150958 GeV - 275.422870333817 GeV
+2022-12-22T05:22:14:  Energy interval 11 ........: 275.422870333817 GeV - 301.995172040202 GeV
+2022-12-22T05:22:14:  Energy interval 12 ........: 301.995172040202 GeV - 331.131121482591 GeV
+2022-12-22T05:22:14:  Energy interval 13 ........: 331.131121482591 GeV - 363.078054770102 GeV
+2022-12-22T05:22:14:  Energy interval 14 ........: 363.078054770102 GeV - 398.107170553497 GeV
+2022-12-22T05:22:14:  Energy interval 15 ........: 398.107170553497 GeV - 436.515832240166 GeV
+2022-12-22T05:22:14:  Energy interval 16 ........: 436.515832240166 GeV - 478.630092322638 GeV
+2022-12-22T05:22:14:  Energy interval 17 ........: 478.630092322638 GeV - 524.807460249772 GeV
+2022-12-22T05:22:14:  Energy interval 18 ........: 524.807460249772 GeV - 575.439937337157 GeV
+2022-12-22T05:22:14:  Energy interval 19 ........: 575.439937337157 GeV - 630.957344480193 GeV
+2022-12-22T05:22:14:  Energy interval 20 ........: 630.957344480193 GeV - 691.830970918936 GeV
+2022-12-22T05:22:14:  Energy interval 21 ........: 691.830970918936 GeV - 758.577575029184 GeV
+2022-12-22T05:22:14:  Energy interval 22 ........: 758.577575029184 GeV - 831.763771102671 GeV
+2022-12-22T05:22:14:  Energy interval 23 ........: 831.763771102671 GeV - 912.01083935591 GeV
+2022-12-22T05:22:14:  Energy interval 24 ........: 912.01083935591 GeV - 1 TeV
+2022-12-22T05:22:14:  Energy interval 25 ........: 1 TeV - 1.09647819614319 TeV
+2022-12-22T05:22:14:  Energy interval 26 ........: 1.09647819614319 TeV - 1.20226443461741 TeV
+2022-12-22T05:22:14:  Energy interval 27 ........: 1.20226443461741 TeV - 1.31825673855641 TeV
+2022-12-22T05:22:14:  Energy interval 28 ........: 1.31825673855641 TeV - 1.44543977074593 TeV
+2022-12-22T05:22:14:  Energy interval 29 ........: 1.44543977074593 TeV - 1.58489319246111 TeV
+2022-12-22T05:22:14:  Energy interval 30 ........: 1.58489319246111 TeV - 1.73780082874938 TeV
+2022-12-22T05:22:14:  Energy interval 31 ........: 1.73780082874938 TeV - 1.90546071796325 TeV
+2022-12-22T05:22:14:  Energy interval 32 ........: 1.90546071796325 TeV - 2.08929613085404 TeV
+2022-12-22T05:22:14:  Energy interval 33 ........: 2.08929613085404 TeV - 2.29086765276777 TeV
+2022-12-22T05:22:14:  Energy interval 34 ........: 2.29086765276777 TeV - 2.51188643150958 TeV
+2022-12-22T05:22:14:  Energy interval 35 ........: 2.51188643150958 TeV - 2.75422870333816 TeV
+2022-12-22T05:22:14:  Energy interval 36 ........: 2.75422870333816 TeV - 3.01995172040202 TeV
+2022-12-22T05:22:14:  Energy interval 37 ........: 3.01995172040202 TeV - 3.31131121482591 TeV
+2022-12-22T05:22:14:  Energy interval 38 ........: 3.31131121482591 TeV - 3.63078054770102 TeV
+2022-12-22T05:22:14:  Energy interval 39 ........: 3.63078054770102 TeV - 3.98107170553497 TeV
+2022-12-22T05:22:14:  Energy interval 40 ........: 3.98107170553497 TeV - 4.36515832240166 TeV
+2022-12-22T05:22:14:  Energy interval 41 ........: 4.36515832240166 TeV - 4.78630092322638 TeV
+2022-12-22T05:22:14:  Energy interval 42 ........: 4.78630092322638 TeV - 5.24807460249772 TeV
+2022-12-22T05:22:14:  Energy interval 43 ........: 5.24807460249772 TeV - 5.75439937337157 TeV
+2022-12-22T05:22:14:  Energy interval 44 ........: 5.75439937337157 TeV - 6.30957344480193 TeV
+2022-12-22T05:22:14:  Energy interval 45 ........: 6.30957344480193 TeV - 6.91830970918936 TeV
+2022-12-22T05:22:14:  Energy interval 46 ........: 6.91830970918936 TeV - 7.58577575029183 TeV
+2022-12-22T05:22:14:  Energy interval 47 ........: 7.58577575029183 TeV - 8.31763771102671 TeV
+2022-12-22T05:22:14:  Energy interval 48 ........: 8.31763771102671 TeV - 9.1201083935591 TeV
+2022-12-22T05:22:14:  Energy interval 49 ........: 9.1201083935591 TeV - 10 TeV
+2022-12-22T05:22:14: === GSkyMap ===
+2022-12-22T05:22:14:  Number of pixels ..........: 22500
+2022-12-22T05:22:14:  X axis dimension ..........: 150
+2022-12-22T05:22:14:  Y axis dimension ..........: 150
+2022-12-22T05:22:14:  Number of maps ............: 50
+2022-12-22T05:22:14:  Shape of maps .............: (50)
+2022-12-22T05:22:14: === GWcsCAR ===
+2022-12-22T05:22:14:  Number of axes ............: 2
+2022-12-22T05:22:14:  Longitude axis ............: 0
+2022-12-22T05:22:14:  Latitude axis .............: 1
+2022-12-22T05:22:14:  Spectral axis .............: -1
+2022-12-22T05:22:14:  Coodinate system ..........: GAL
+2022-12-22T05:22:14:  Projection code ...........: CAR
+2022-12-22T05:22:14:  Projection name ...........: plate carree
+2022-12-22T05:22:14:  Radius of the gen. sphere .: 57.2957795130823 deg
+2022-12-22T05:22:14:  Reference coordinate ......: (0, 0)
+2022-12-22T05:22:14:  Reference pixel ...........: (75.5, 75.5)
+2022-12-22T05:22:14:  Increment at reference ....: (-0.02, 0.019999999553)
+2022-12-22T05:22:14:  (Phi_0, Theta_0) ..........: (0, 0) deg
+2022-12-22T05:22:14:  (Phi_p, Theta_p) ..........: (0, 90) deg
+2022-12-22T05:22:14:  LATPOLE keyword usage .....: Required to select between two valid solutions of Theta_p.
+2022-12-22T05:22:14:  Reference vector (m_ref) ..: (0, 0, 0, 90) deg
+2022-12-22T05:22:14:  Euler angles ..............: (180 deg, 0 deg, 0 deg, 1, 0)
+2022-12-22T05:22:14:  Latitude preserved ........: True
+2022-12-22T05:22:14:  Unity PC matrix ...........: True
+2022-12-22T05:22:14:  Pixel-to-image trafo ......: ()
+2022-12-22T05:22:14:  Image-to-pixel trafo ......: ()
+2022-12-22T05:22:14:  Strict bounds checking ....: True
+2022-12-22T05:22:14:  Use fiducial offset .......: False
+2022-12-22T05:22:14:  Fiducial offset ...........: (0, 0)
+2022-12-22T05:22:14:  Rest frequency ............: UNDEFINED
+2022-12-22T05:22:14:  Rest wavelength ...........: UNDEFINED
+2022-12-22T05:22:14: 
+2022-12-22T05:22:14: +===============+
+2022-12-22T05:22:14: | Output models |
+2022-12-22T05:22:14: +===============+
+2022-12-22T05:22:14: === GModels ===
+2022-12-22T05:22:14:  Number of models ..........: 2
+2022-12-22T05:22:14:  Number of parameters ......: 11
+2022-12-22T05:22:14: === GModelSky ===
+2022-12-22T05:22:14:  Name ......................: pwn_0
+2022-12-22T05:22:14:  Instruments ...............: all
+2022-12-22T05:22:14:  Observation identifiers ...: all
+2022-12-22T05:22:14:  Model type ................: ExtendedSource
+2022-12-22T05:22:14:  Model components ..........: "RadialGaussian" * "PowerLaw" * "Constant"
+2022-12-22T05:22:14:  Number of parameters ......: 7
+2022-12-22T05:22:14:  Number of spatial par's ...: 3
+2022-12-22T05:22:14:   GLON .....................: 0 [-360,360] deg (fixed,scale=1,gradient)
+2022-12-22T05:22:14:   GLAT .....................: 0 [-90,90] deg (fixed,scale=1,gradient)
+2022-12-22T05:22:14:   Sigma ....................: 0.03 +/- 0 [0.001,10] deg (free,scale=1,gradient)
+2022-12-22T05:22:14:  Number of spectral par's ..: 3
+2022-12-22T05:22:14:   Prefactor ................: 5.7e-18 +/- 0 [1e-23,1e-13] ph/cm2/s/MeV (free,scale=1e-16,gradient)
+2022-12-22T05:22:14:   Index ....................: -2.48 +/- 0 [-5,-0]  (free,scale=-1,gradient)
+2022-12-22T05:22:14:   PivotEnergy ..............: 300000 [10000,1000000000] MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:22:14:  Number of temporal par's ..: 1
+2022-12-22T05:22:14:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:22:14:  Number of scale par's .....: 0
+2022-12-22T05:22:14: === GCTAModelCubeBackground ===
+2022-12-22T05:22:14:  Name ......................: BackgroundModel
+2022-12-22T05:22:14:  Instruments ...............: CTA, HESS, MAGIC, VERITAS, ASTRI
+2022-12-22T05:22:14:  Observation identifiers ...: all
+2022-12-22T05:22:14:  Model type ................: "PowerLaw" * "Constant"
+2022-12-22T05:22:14:  Number of parameters ......: 4
+2022-12-22T05:22:14:  Number of spectral par's ..: 3
+2022-12-22T05:22:14:   Prefactor ................: 1 +/- 0 [0.01,100] ph/cm2/s/MeV (free,scale=1,gradient)
+2022-12-22T05:22:14:   Index ....................: 0 +/- 0 [-5,5]  (free,scale=1,gradient)
+2022-12-22T05:22:14:   PivotEnergy ..............: 1000000 MeV (fixed,scale=1000000,gradient)
+2022-12-22T05:22:14:  Number of temporal par's ..: 1
+2022-12-22T05:22:14:   Normalization ............: 1 (relative value) (fixed,scale=1,gradient)
+2022-12-22T05:22:14: 
+2022-12-22T05:22:14: +======================+
+2022-12-22T05:22:14: | Save background cube |
+2022-12-22T05:22:14: +======================+
+2022-12-22T05:22:14:  Background cube file ......: bkgcube_emin=0.10_emax=10.00_side=3.00.fits
+2022-12-22T05:22:14:  Model definition file .....: emin=0.10_emax=10.00_side=3.00_models.xml
+2022-12-22T05:22:14: 
+2022-12-22T05:22:14: Application "ctbkgcube" terminated after 169 wall clock seconds, consuming 169.238 seconds of CPU time and generating a carbon footprint of 0.658051 g eCO2.
